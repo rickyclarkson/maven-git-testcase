@@ -5,8 +5,8 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <scm>
-    <connection>scm:git:http://github.com/rickyclarkson/maven-git-testcase.git</connection>
-    <developerConnection>scm:git:http://github.com/rickyclarkson/maven-git-testcase.git</developerConnection>
+    <connection>scm:jgit:http://github.com/rickyclarkson/maven-git-testcase.git</connection>
+    <developerConnection>scm:jgit:http://github.com/rickyclarkson/maven-git-testcase.git</developerConnection>
   </scm>
   <modules>
     <module>child</module>
