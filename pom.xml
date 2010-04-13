@@ -5,9 +5,20 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <scm>
-    <connection>scm:jgit:http://github.com/rickyclarkson/maven-git-testcase.git</connection>
-    <developerConnection>scm:jgit:http://github.com/rickyclarkson/maven-git-testcase.git</developerConnection>
+    <connection>scm:git:http://github.com/rickyclarkson/maven-git-testcase.git</connection>
+    <developerConnection>scm:git:http://github.com/rickyclarkson/maven-git-testcase.git</developerConnection>
   </scm>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-scm-plugin</artifactId>
+	  <version>1.3</version>
+	</plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
   <modules>
     <module>child</module>
   </modules>
